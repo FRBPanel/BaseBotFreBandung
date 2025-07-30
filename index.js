@@ -35,7 +35,7 @@ async function startBot() {
     }
 
     const { version, isLatest } = await fetchLatestBaileysVersion()
-const frb = makeWAfredev({
+const frb = makeWafredev ({
 version,
 printQRInTerminal: !global.usePairingCode,
 logger: pino({ level: 'silent' }),
@@ -88,7 +88,7 @@ markOnlineOnConnect: true,
       defaultQueryTimeoutMs: undefined, // for this issues https://github.com/Whiskeychanzxets/Baileys/issues/276
 })
 
-if (global.usePairingCode && !chanzx.authState.creds.registered) {
+if (global.usePairingCode && !frb.authState.creds.registered) {
     console.log('Masukkan Nomor WhatsApp Kamu Diawali Oleh angka 62:')
 		let phoneNumber = await question('Nomor Whatsapp Ter-Input: ')
 		phoneNumber = phoneNumber.replace(/\D/g, '')
