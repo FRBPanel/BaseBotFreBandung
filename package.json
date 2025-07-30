@@ -1,0 +1,19 @@
+{
+    "name": "BASE BY FRE TECH",
+    "version": "1.0.0",
+    "description": "A WhatsApp bot using @whiskeysockets/baileys",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Fre Dev",
+    "license": "MIT",
+    "dependencies": {
+        "@whiskeysockets/baileys": "npm:alwaysaqioo",
+        "chalk": "^4.1.2",
+        "fs": "0.0.1-security",
+        "fs-extra": "^10.0.0",
+        "moment-timezone": "^0.5.48",
+        "pino": "^7.11.0"
+    }
+}
