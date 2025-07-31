@@ -92,7 +92,7 @@ if (global.usePairingCode && !frb.authState.creds.registered) {
     console.log('Masukkan Nomor WhatsApp Kamu Diawali Oleh angka 62:')
 		let phoneNumber = await question('Nomor Whatsapp Ter-Input: ')
 		phoneNumber = phoneNumber.replace(/\D/g, '')
-		let code = await chanzx.requestPairingCode(phoneNumber, "FREDEVEL")
+		let code = await frb.requestPairingCode(phoneNumber, "FREDEVEL")
 		console.log(`┏━━  *「 Kode Pairing Kamu」*\n┃ ❖ ${code}\n┗━━━━━━━━━━━━━━━━━━┅`)
 	}
 
