@@ -95,7 +95,7 @@ const args = body.trim().split(/ +/).slice(1)
             }
         }
        } catch (error) {
-           console.error("Error in chanzx module:", error);
+           console.error("Error in frb module:", error);
        }
     }
 
