@@ -7,4 +7,4 @@ Channel WA Admin : https://whatsapp.com/channel/0029Vb6AP0X7Noa4fD07452k
 
 Grup WA : https://chat.whatsapp.com/HefjOKPDt02DQVY7woOcEC
 
-Owner Base Bot WA : t.me/FreBandung
+Owner Base Bot WA : https://t.me/FreBandung
